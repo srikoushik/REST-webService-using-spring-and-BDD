@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class RestController {
 
 	@GetMapping
-	@RequestMapping("/api/v1/add")
+	@RequestMapping("api/v1/add")
 	public double addition(double firstOperand, double secondOperand) {
 		return firstOperand + secondOperand;
 	}
