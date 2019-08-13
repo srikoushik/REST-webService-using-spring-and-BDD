@@ -51,3 +51,7 @@ Step 5: RUN `mvn test`
 
 # NOTE: 
 Change the Spring PORT in `application.properties` file.
+
+# Docker image:
+https://cloud.docker.com/repository/docker/srikoushik/spring-bdd/
+
